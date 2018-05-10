@@ -3,7 +3,8 @@ const mysqlServer = require('mysql')
 const connection = mysqlServer.createConnection({
     host: 'us-cdbr-iron-east-04.cleardb.net',
     user: 'bbfa53bdd9b171',
-    database: 'heroku_04d412a831f0fa4'
+    database: 'heroku_04d412a831f0fa4',
+    password : 'e0b65796'
 })
 
 const errorHandler = (error, msg, rejectFunction) => {

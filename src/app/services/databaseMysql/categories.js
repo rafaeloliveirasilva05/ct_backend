@@ -61,7 +61,7 @@ const categories = deps => {
                     escola,
                     ano_serie,
                     periodo,
-                } = req.params
+                } = req.body.user
                 
                 dn = data_nascimento.split('/').reverse().join('/');
                 da = data_abertura.split('/').reverse().join('/');

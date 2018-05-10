@@ -1,9 +1,9 @@
 const mysqlServer = require('mysql')
 
 const connection = mysqlServer.createConnection({
-    host: 'localhost',
-    user: 'root',
-    database: 'conselhotutelar'
+    host: 'us-cdbr-iron-east-04.cleardb.net',
+    user: 'bbfa53bdd9b171',
+    database: 'heroku_04d412a831f0fa4'
 })
 
 const errorHandler = (error, msg, rejectFunction) => {
